@@ -4,7 +4,7 @@
 3. ls -i /
    ls -i /etc
    ls -i /etc/hosts
-4. sudo cp /etc/passwd .
+4. sudo cp /etc/passwd 
    sudo diff passwd /etc/passwd
    sudo cmp passwd /etc/passwd
    sudo nano passwd
