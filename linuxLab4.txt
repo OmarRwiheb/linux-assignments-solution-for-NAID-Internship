@@ -1,0 +1,15 @@
+1. we use VIM for checking contents of the archived folder with the above 
+   different extensions, i.e. zip, tar, tgz, tar.xz, tar.bz2, tbz...
+2. sudo tar -cvpf  archive.tar
+3. ls -i /
+   ls -i /etc
+   ls -i /etc/hosts
+4. sudo cp /etc/passwd .
+   sudo diff passwd /etc/passwd
+   sudo cmp passwd /etc/passwd
+   sudo nano passwd
+   sudo diff passwd /etc/passwd
+   sudo cmp passwd /etc/passwd
+5. ln -s /etc/passwd /boot
+6. A hard link cannot be used to achieve what we want,
+   because hard links do not work between file systems.
